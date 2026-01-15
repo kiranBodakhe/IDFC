@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<h1>this is home page</h1>
+<button><a  href="{% url 'show' %}" >Show</a></button>
+<img src="{% static 'home.jpg' %}" alt="">
+</body>
+</html>
